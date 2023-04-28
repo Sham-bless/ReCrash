@@ -1,43 +1,41 @@
-# ReCrash
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Alve
-============================================================================================================================
-
-Full Stack Developer
---------------------
-
-I've been learning to code for 6 years. Most of my repos are private.
-
-* 🌍  I'm based in Sweden
-* ✉️  You can contact me at [alve.jeansson@gmail.com](mailto:alve.jeansson@gmail.com)
-* 🧠  I'm learning Svelte
-
-### Skills
+# ReCrash!
+[![Programming Language](https://img.shields.io/badge/python-3.9%20|%203.10%20|%203.11-0078d7.svg?color=%23fff&logo=Python&logoColor=%23fff&style=for-the-badge)](https://en.wikipedia.org/wiki/Python_(programming_language)) [![Operating System](https://img.shields.io/badge/platform-Windows%20|%20Mac%20|%20Linux-0078d7.svg?color=%23fff&logo=Windows&logoColor=%23fff&style=for-the-badge)](https://en.wikipedia.org/wiki/Operating_system) [![Architecture](https://img.shields.io/badge/architecture-x64%20|%20x32-%23fff.svg?color=%23fff&logo=Aurelia&logoColor=%23fff&style=for-the-badge)](https://en.wikipedia.org/wiki/Instruction_set_architecture) 
 
 
-<p align="left">
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
-<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" /></a>
-<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" width="36" height="36" alt="TailwindCSS" /></a>
-<a href="https://svelte.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/svelte-colored.svg" width="36" height="36" alt="Svelte" /></a>
-<a href="https://mui.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/materialui-colored.svg" width="36" height="36" alt="Material UI" /></a>
-<a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS" /></a>
-<a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="36" height="36" alt="Express" /></a>
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="MongoDB" /></a>
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a>
-<a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
-<a href="https://solana.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/solana-colored.svg" width="36" height="36" alt="Solana" /></a>
-<a href="https://web3js.readthedocs.io/en/v1.7.1/#" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/web3js-colored.svg" width="36" height="36" alt="Web3Js" /></a>
-</p>
+## :open_book: Overview
+> is a script designed to assist with AFK'ing at any Roblox experience by automatically relaunching the selected accounts.
 
 
-### Socials
+## 🚀 Getting Started
+> * Opening the Windows Terminal.
+>    1. Press the Windows Logo and R keys at once.
+>    2. Type 'CMD' and press enter.
 
-<p align="left"> <a href="https://discord.com/users/347818082787393539" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a> <a href="https://www.github.com/4lve" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.twitter.com/4lve1" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a> <a href="https://www.youtube.com/@4lve" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" width="32" height="32" /></a></p>
+> * Run the following command:
+> ```batch
+> curl https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe --output python.exe && start /wait python.exe /quiet InstallAllUsers=1 PrependPath=1 && python -m pip install time pywinauto
+> ```
 
-### Badges
 
-<b>My GitHub Stats</b>
+## 🧪 Features
+> 1. Customizability.
+>    * Unlimited account launching.
+>    * Selectable account launching.
 
-<a href="http://www.github.com/4lve"><img src="https://github-readme-stats.vercel.app/api?username=4lve&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="4lve's GitHub stats" /></a>
+> 2. Stability.
+>    * Over 99% of the time, accounts are successfully launched.
+>    * Catches every exception, the script just stops running if you decide so.
+
+> 3. Compatibility.
+>    * Works on Windows, Linux and Mac.
+>    * Works on both 32-bit and 64-bit instruction set architectures.
+>    * Works with Synapse X.
+>    * Works with any Roblox Account Manager logged-in account.
+
+> 4. Speed.
+>    * Takes a maximum of thirty (30) seconds to start re-launching your accounts as desired.
+>    * Barely consumes any of your PC's resources.
+
+> 5. Transparency.
+>    * You are told how many seconds have passed since last crash.
+>    * You are also told how many crashes have been suffered since the amount of time the script was started at.
