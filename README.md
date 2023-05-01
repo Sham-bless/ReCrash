@@ -2,7 +2,8 @@
 [![Programming Language](https://img.shields.io/badge/python-3.9%20|%203.10%20|%203.11-0078d7.svg?color=%23fff&logo=Python&logoColor=%23fff&style=for-the-badge)](https://en.wikipedia.org/wiki/Python_(programming_language)) [![Operating System](https://img.shields.io/badge/platform-Windows%20|%20Mac%20|%20Linux-0078d7.svg?color=%23fff&logo=Windows&logoColor=%23fff&style=for-the-badge)](https://en.wikipedia.org/wiki/Operating_system) [![Architecture](https://img.shields.io/badge/architecture-x86%20|%20x64%20|%20x32-%23fff.svg?color=%23fff&logo=Aurelia&logoColor=%23fff&style=for-the-badge)](https://en.wikipedia.org/wiki/Instruction_set_architecture) 
 
 ## 🚀 Getting Started
-> * Opening the Windows Terminal.
+### Windows
+> * Opening the Terminal.
 >    1. Press the Windows Logo and R keys at once.
 >    2. Type 'CMD' and then press enter.
 
@@ -11,7 +12,8 @@
 > curl https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe -o python.exe && python.exe /quiet InstallAllUsers=1 PrependPath=1 Include_launcher=0 && python -m ensurepip && python -m pip install pyarmor psutil pywinauto os ctypes time datetime json
 > ```
 
-> * Opening the Mac Terminal.
+### Mac
+> * Opening the Terminal.
 >    1. Press the Command + Space Bar keys at once.
 >    2. Type 'Terminal' and then press enter.
 
@@ -20,8 +22,8 @@
 > curl https://www.python.org/ftp/python/3.10.0/python-3.10.0-macos11.pkg -o python.pkg && sudo installer -pkg python.pkg -target / && rm python.pkg && python3 -m ensurepip && python3 -m pip install pyarmor psutil pywinauto os ctypes time datetime json
 > ```
 
-
-> * Opening the Mac Terminal.
+### Linux
+> * Opening the Terminal.
 >    1. Press the Ctrl, Alt and T keys at once.
 
 > * Run the following command:
