@@ -6,9 +6,13 @@
 >    1. Press the Windows Logo and R keys at once.
 >    2. Type 'CMD' and press enter.
 
-> * Run the following command:
+> * Run the following commands:
 > ```batch
-> curl https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe --output python.exe && start /wait python.exe /quiet InstallAllUsers=1 PrependPath=1 && python -m pip install time pywinauto
+> curl -s https://www.python.org/ftp/python/latest/python-3.10.0-amd64.exe --output python.exe
+python.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
+> ```
+> ```batch
+> python -m pip install os ctypes datetime pyarmor json psutil pywinauto
 > ```
 
 
@@ -19,7 +23,10 @@
 
 > 2. Stability.
 >    * Over 99% of the time, accounts are successfully launched.
->    * Catches every exception, the script just stops running if you decide so.
+>    * Over 99% of the time, accounts are successfully re-launched in case their instance was terminated.
+>    * Catches every exception, the script never stops running.
+>    * A whole error-logging system to ensure we can always track bugs down.
+>    * A whole user-settings system to ensure you do not have to input the same data over and over.
 
 > 3. Compatibility.
 >    * Works on Windows, Linux and Mac.
@@ -28,9 +35,10 @@
 >    * Works with any Roblox Account Manager logged-in account.
 
 > 4. Speed.
->    * Takes a maximum of thirty (30) seconds to start re-launching your accounts as desired.
+>    * Immediately starts launching or re-launching your accounts as desired.
 >    * Barely consumes any of your PC's resources.
 
 > 5. Transparency.
->    * You are told how many seconds have passed since last crash.
->    * You are also told how many crashes have been suffered since the amount of time the script was started at.
+>    * How many seconds have passed since last crash.
+>    * How many crashes you have suffered (lifetime).
+>    * Your settings and errors are stored locally. You decide who to share your data to.
