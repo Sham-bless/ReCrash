@@ -4,17 +4,30 @@
 ## 🚀 Getting Started
 > * Opening the Windows Terminal.
 >    1. Press the Windows Logo and R keys at once.
->    2. Type 'CMD' and press enter.
+>    2. Type 'CMD' and then press enter.
 
-> * Run the following commands:
+> * Run the following command:
 > ```batch
-> curl -s https://www.python.org/ftp/python/latest/python-3.10.0-amd64.exe --output python.exe
-python.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
-> ```
-> ```batch
-> python -m pip install os ctypes datetime pyarmor json psutil pywinauto
+> curl https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe -o python.exe && python.exe /quiet InstallAllUsers=1 PrependPath=1 Include_launcher=0 && python -m ensurepip && python -m pip install pyarmor psutil pywinauto os ctypes time datetime json
 > ```
 
+> * Opening the Mac Terminal.
+>    1. Press the Command + Space Bar keys at once.
+>    2. Type 'Terminal' and then press enter.
+
+> * Run the following command:
+> ```batch
+> curl https://www.python.org/ftp/python/3.10.0/python-3.10.0-macos11.pkg -o python.pkg && sudo installer -pkg python.pkg -target / && rm python.pkg && python3 -m ensurepip && python3 -m pip install pyarmor psutil pywinauto os ctypes time datetime json
+> ```
+
+
+> * Opening the Mac Terminal.
+>    1. Press the Ctrl, Alt and T keys at once.
+
+> * Run the following command:
+> ```batch
+> sudo apt-get install python3 && python3 -m ensurepip && python3 -m pip install pyarmor psutil pywinauto os ctypes time datetime json
+> ```
 
 ## 🧪 Current Features
 > 1. Customizability.
