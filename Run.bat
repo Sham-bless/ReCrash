@@ -15,5 +15,7 @@ if "%json_text%" == "%webpage_text%" (
 ) else (
 	cd /d bin
 	del Client.py
+	
 	curl -o Client.py https://raw.githubusercontent.com/Sham-bless/ReCrash/main/bin/Client.py
+	python "Client.py"
 )
